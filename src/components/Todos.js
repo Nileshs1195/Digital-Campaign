@@ -6,7 +6,8 @@ class Todos extends React.Component {
         console.log(this.props.todos)
         return (
             <div>   
-            <div className="headingName">               
+            <div className="headingName">  
+                Todos Component                   
             </div>
             </div>
         );

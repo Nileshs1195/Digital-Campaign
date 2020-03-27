@@ -1,0 +1,54 @@
+
+[
+  {
+    "name":"Quest Global",
+    "description":"Windows 7",
+    "startDate":"2020-04-01T00:00:00",
+    "endDate":"2020-07-01T00:00:00",
+    "companyId":2,
+    "noOfDevices":70,
+  
+    "questionList": [
+      {
+        "questionText": "How satisfied are you with your overall experience with toner cartridges ?",
+        "optionType": "radiobutton",
+        "responseList": [
+          {            
+            "responseOption": "Completely satisfied"
+          }, {
+            
+            "responseOption": "Very satisfied"
+          }, {
+            
+            "responseOption": "Satisfied"
+          },
+           {            
+            "responseOption": "Somewhat dissatisfied"
+          },
+          {            
+            "responseOption": "dissatisfied"
+          }
+        ]
+      }, {
+        "questionText": "Which of the following TYPES of cartridges or refills were purchased in the last six months for your printer ?",
+  
+        "optionType": "check",
+        "responseList": [
+          {            
+            "responseOption": "New HP branded cartridges"
+          },          
+          {            
+            "responseOption": "Store-branded non-HP cartridges"
+          },           
+          {            
+            "responseOption": "Private label non-HP cartridge (includes refurbished/refilled cartridges)"
+          },
+          {            
+            "responseOption": "None of the above"
+          }
+        ]
+      }
+    ]
+    
+  }
+]
